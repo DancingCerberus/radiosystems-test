@@ -7,7 +7,8 @@
 ### 2. Запуск hello.sh
 `./hello.sh`
 ### 3. Запуск search_path.sh
-`search_path.sh`
+Данный скрипт ищет строки с вхождением "ip" в файле `/etc/hosts` и выводит первые 5 строк. 
+`./search_path.sh`
 ### 4. Запуск extract_path_value.py
 `./extract_path_value.py`
 ### 5. Docker
