@@ -2,6 +2,7 @@
 
 ### 1. Linux команды
 Перед запуском убедитесь, что у вас есть права на запуск.
+
 ```chmod +x hello.sh search_path.sh extract_path_value.py```
 
 ### 2. Запуск hello.sh
