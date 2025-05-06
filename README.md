@@ -2,20 +2,20 @@
 
 ### 1. Linux команды
 Перед запуском убедитесь, что у вас есть права на запуск.
-`chmod +x hello.sh search_path.sh extract_path_value.py`
+```chmod +x hello.sh search_path.sh extract_path_value.py```
 
 ### 2. Запуск hello.sh
-`./hello.sh`
+```./hello.sh```
 ### 3. Запуск search_path.sh
 Данный скрипт ищет строки с вхождением "ip" в файле `/etc/hosts` и выводит первые 5 строк. 
-`./search_path.sh`
+```./search_path.sh```
 ### 4. Запуск extract_path_value.py
-`./extract_path_value.py`
+```./extract_path_value.py```
 ### 5. Docker
 Соберите образ:
-`docker build -t optimized .`
+```docker build -t optimized .```
 Запустите контейнер
-`docker run -it --rm optimized`
+```docker run -it --rm optimized```
 
 Перейдите в рабочую директорию и запустите скрипты:
 ```
